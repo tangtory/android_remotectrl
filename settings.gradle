@@ -1,0 +1,7 @@
+include ':commander'
+include ':CommonLib'
+include ':agent'
+include ':vncserver'
+include ':DaemonLib'
+include ':MessengerLib'
+rootProject.name = "LotteDeamonProject"

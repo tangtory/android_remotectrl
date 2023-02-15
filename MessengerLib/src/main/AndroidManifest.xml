@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lotte.mart.messengerlib">
+    <application>
+        <service
+            android:name="com.lotte.mart.messengerlib.messenger.module.server.MessengerService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.lotte.mart.messengerlib.messenger.module.server.MessengerService" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>
